@@ -12,11 +12,6 @@ body{
   padding-bottom: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .uwu-inc-header {
   background-color: #ffc6d0;
@@ -29,8 +24,31 @@ body{
   color: white;
 }
 
-.App-link {
-  color: #fb6169;
+
+.info-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.greeting{
+  font-size: 1rem;
+  margin-left: 20%;
+  margin-top: -15%;
+  padding-top: 3%;
+}
+
+h1{
+  font-size: 3.3rem;
+  display: flex;
+  justify-content: flex-start;
+  padding: 2%;
+  margin-left: 3%;
+}
+
+h3{
+  margin-top: -4.5%;
+  margin-left: 7.5%;
+
 }
 
 /* ------- Form CSS -------- */
@@ -56,4 +74,37 @@ button{
   border: none;
   border-radius: 8px;
   padding: 2%;
+}
+
+.error{
+  padding-left: 15%;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  font-size: .9rem;
+  color: red;
+  margin: 2% 0 2% 0;
+}
+
+.termsBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin: 3% 30% 1.5% 39%;
+  color:rgb(255, 162, 170);
+}
+
+.terms{
+  font-size: .6rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 23% 0 23% ;
+}
+
+.hidden{
+  display: none;
 }
