@@ -107,7 +107,7 @@ export default function UserForm (props) {
                 <div className="error">{ errors.terms }</div>
             
                 <div className="submission-wrap">
-                    <button id="submit">
+                    <button id="submit" onClick={ onSubmit }>
                         Submit
                     </button>
                 </div>
