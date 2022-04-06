@@ -26,10 +26,10 @@ export default function UserForm (props) {
     return (
         <>
             <div className="info-wrapper">
-            <h3>♥ Welcome ♥ </h3>
             <div className="greeting">
-            <p>To create your account, please fill out all fields: </p>
-            <p>Your information is precious to us (✿◠‿◠) </p>
+                <h3>♥ Welcome ♥ </h3>
+                <p>To create your account, please fill out all fields: </p>
+                <p>Your information is precious to us (✿◠‿◠) </p>
             </div>
             
             </div>
@@ -107,7 +107,7 @@ export default function UserForm (props) {
                 <div className="error">{ errors.terms }</div>
             
                 <div className="submission-wrap">
-                    <button>
+                    <button id="submit">
                         Submit
                     </button>
                 </div>
